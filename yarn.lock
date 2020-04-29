@@ -4116,9 +4116,9 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
 
 safe-json-type-plugins@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/safe-json-type-plugins/-/safe-json-type-plugins-1.0.1.tgz#411870b64b65b22318273de2dc5c43ddca52d64a"
-  integrity sha512-sUhppajmpkwG9PLdqFTSmlRGKgSCMYg8QjtEeKjUlrX0krp2NpFtE9XilUtXsBrSsfkYGSywbu+Sut1Z5w1Uqg==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/safe-json-type-plugins/-/safe-json-type-plugins-1.0.2.tgz#672e4e34ee207c3da970f2fa600e8d5781c610db"
+  integrity sha512-UbjVNLtuR30NQp8hmI7G/E/ie3O3HbhOLFHe3/84lw8bmD6N+H/TOas9M3EW8KSEJC+cXW/wxA0M6xfIrJ81XA==
   dependencies:
     buffer "^5.4.3"
 
