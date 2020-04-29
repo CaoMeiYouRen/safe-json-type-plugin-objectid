@@ -39,7 +39,7 @@
     "url": "https://github.com/CaoMeiYouRen/safe-json-type-plugin-objectid.git"
   },
   "devDependencies": {
-    "@types/mocha": "^5.2.7",
+    "@types/mocha": "^7.0.2",
     "@types/mongodb": "^3.3.16",
     "@types/node": "^13.1.0",
     "commitizen": "^4.0.3",
