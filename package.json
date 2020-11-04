@@ -18,7 +18,8 @@
     "prebuild": "rimraf dist",
     "commit": "git add . && git cz && git pull && git push",
     "changelog": "conventional-changelog -p cmyr-config -i CHANGELOG.md -s -r 0",
-    "postchangelog": "npm run commit"
+    "postchangelog": "npm run commit",
+    "release": "semantic-release"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
