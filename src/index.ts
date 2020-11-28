@@ -29,7 +29,7 @@ export class SafeJsonPluginObjectId implements SafeJsonPlugin<SafeJsonObjectId, 
         } else {
             return {
                 __type: 'ObjectId',
-                id: obj.toHexString()
+                id: obj.toHexString(),
             }
         }
     }
