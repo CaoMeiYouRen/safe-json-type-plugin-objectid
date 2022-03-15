@@ -1,5 +1,17 @@
 # safe-json-type-plugins
 
+# [2.0.0](https://github.com/CaoMeiYouRen/safe-json-type-plugin-objectid/compare/v1.0.1...v2.0.0) (2022-03-15)
+
+
+### ✨ Features
+
+* 大幅更新依赖 ([40bb6c1](https://github.com/CaoMeiYouRen/safe-json-type-plugin-objectid/commit/40bb6c1))
+
+
+### 💥 BREAKING CHANGES
+
+* 大幅更新依赖导致出现不兼容更新
+
 ## [1.0.1](https://github.com/CaoMeiYouRen/safe-json-type-plugin-objectid/compare/v1.0.0...v1.0.1) (2020-11-28)
 
 
