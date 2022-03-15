@@ -26,11 +26,10 @@ export class SafeJsonPluginObjectId implements SafeJsonPlugin<SafeJsonObjectId, 
     serialize(obj: ObjectId): any {
         if (this._useString) {
             return obj.toHexString()
-        } else {
-            return {
-                __type: 'ObjectId',
-                id: obj.toHexString(),
-            }
+        }
+        return {
+            __type: 'ObjectId',
+            id: obj.toHexString(),
         }
     }
     deserialize(obj: SafeJsonObjectId): ObjectId | SafeJsonObjectId {

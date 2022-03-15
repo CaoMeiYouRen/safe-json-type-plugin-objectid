@@ -12,7 +12,7 @@ describe('测试ObjectId类的转换', () => {
         const plugin = new SafeJsonPluginObjectId(false)
         const id = new ObjectId('5e48f7e42a6bfd4d10ef1387')
         const obj1 = plugin.serialize(id)
-        obj1.should.deepEqual({__type:'ObjectId',id:'5e48f7e42a6bfd4d10ef1387'});
+        obj1.should.deepEqual({ __type: 'ObjectId', id: '5e48f7e42a6bfd4d10ef1387' });
         const obj2 = plugin.deserialize(obj1);
         (obj2 instanceof ObjectId).should.ok()
     })
